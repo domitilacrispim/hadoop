@@ -1,0 +1,6 @@
+O arquivo  movies.csv contém 3 colunas 1 que indica o id do filme ( uma chave ), seu nome e o gênero respectivo ( drama, suspense etc...)
+O arquivo rating.csv tem um 4 colunas, 1 indica o usuário que fez a avaliação, 2  indica o id do filme avaliado, 3 é a nota e 4 é a tempo em que essa avaliação foi feita.
+O arquivo  tags.csv tem 4 colunas, 1 indica o usuário que colocou a tag, 2 indica o movie que foi rotulado, 3 indica a tag que ele recebeu ( se é engraçado, musical, atores presentes ), 4 indica o tempo que isso aconteceu.
+O arquivo links.csv tem 3 colunas, 1 indica o id do filme na nossa base, 2 indica o id do filme no IMDB que é um site de filmes e 3 indica o id no TMBD que também é um site de filmes.
+
+Para esse projeto usaremos movies.csv e rating.csv.
