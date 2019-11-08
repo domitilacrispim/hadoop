@@ -1,0 +1,12 @@
+Moviemapper(key, value, context){
+  record=value
+  parts[]=record.split(" ")
+  context.write(parts[0], parts[1]+parts[2]+"R")
+}
+
+MovieReducer(key, value, context){
+  Rtable = hashSet()
+  Strable=hashSet()
+  
+
+}
