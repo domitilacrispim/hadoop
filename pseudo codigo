@@ -1,12 +1,43 @@
 Moviemapper(key, value, context){
   record=value
   parts[]=record.split(" ")
-  context.write(parts[0], parts[1]+parts[2]+"R")
+  context.write(parts[0], parts[1]+parts[2])
 }
 
 MovieReducer(key, value, context){
   Rtable = hashSet()
-  Strable=hashSet()
-  
+  for( s in Rtable){
+    for(r in Rtable){
+        if(r!=s){
+          context.write("<"+r+s+">");
+        }
+     }
+  }
 
+}
+
+Main(String[] args){
+  map=Moviemapper(input);
+  out=MovieReducer(map);
+  write(out_movie);
+}
+
+========================
+
+Wordmapper(key, value, context){
+  record=value
+  parts[]=record.split(" ")
+  context.write(parts[0], "1");
+
+}
+
+WordReducer(key, value, context){
+  record=value
+  parts[]=record.split(" ")
+  context.write(parts[0], sum(part[0]));
+}
+Main(String[] args){
+  map=Moviemapper(out_movie);
+  out=MovieReducer(map);
+  write(out_final);
 }
