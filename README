@@ -5,4 +5,4 @@ O arquivo rating.csv tem um 4 colunas, 1 indica o usuário que fez a avaliação
 O arquivo  tags.csv tem 4 colunas, 1 indica o usuário que colocou a tag, 2 indica o movie que foi rotulado, 3 indica a tag que ele recebeu ( se é engraçado, musical, atores presentes ), 4 indica o tempo que isso aconteceu.
 O arquivo links.csv tem 3 colunas, 1 indica o id do filme na nossa base, 2 indica o id do filme no IMDB que é um site de filmes e 3 indica o id no TMBD que também é um site de filmes.
 
-Para esse projeto usaremos movies.csv e rating.csv.
+Para esse projeto usaremos rating.csv que foi transformado em R.txt que esta dentro das pastas sem a coluna timestamp.
